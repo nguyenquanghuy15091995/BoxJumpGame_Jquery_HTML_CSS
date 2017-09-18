@@ -1,0 +1,104 @@
+body {
+	overflow: hidden;
+	font-family: Time New Roman;
+}
+
+.btnPLayDiv {
+	background: transparent;
+	height: 7.5%;
+	width: 13%;
+	position:absolute;
+	top: 7%;
+	left: 81%;
+}
+
+.btnJumpDiv {
+	background: transparent;
+	height: 10%;
+	width: 13%;
+	position:absolute;
+	top: 80%;
+	left: 43%;
+}
+
+.btnGeneral {
+	text-align: center;
+	color: white;
+	width: 100%;
+	font-size: 20pt;
+	background:#008000;
+	cursor:pointer;
+	line-height: 170%;
+}
+
+.main-obj {
+	background:#0000b3;
+	height: 16%;
+	width: 5%;
+	position:absolute;
+	top: 46%;
+	left: 47%;
+}
+
+.earth-obj {
+	background: #4d1f00;
+	height:45%;
+	width:100%;
+	position: absolute;
+	top: 62%;
+	left: 0;
+}
+
+.rock-obj {
+	background: #4d4d4d;
+	height: 15%;
+	width:4%;
+	position:absolute;
+	top: 47%;
+	left: 90%;
+}
+
+.text-jump-times-obj {
+	font-weight: bold;
+	display: block;
+	font-size: 20pt;
+	position:absolute;
+	color: #e60000;
+	top: 15%;
+	left: 5%;
+}
+
+.text-time-out-obj {
+	font-weight: bold;
+	display: block;
+	font-size: 20pt;
+	position:absolute;
+	color: #e60000;
+	top: 5%;
+	left: 5%;
+}
+
+.text-count-down-obj {
+	height: 10%;
+	width: 12%;
+	font-size: 30pt;
+	text-align: center;
+	font-weight: bold;
+	position:absolute;
+	color: #006600;
+	top: 8%;
+	left: 43%;
+}
+
+.text-message-obj {
+	background: transparent;
+	height: 10%;
+	width: 60%;
+	font-size: 25pt;
+	text-align: center;
+	font-weight: bold;
+	position:absolute;
+	color: #e60000;
+	top: 8%;
+	left: 20%;
+}
